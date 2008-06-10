@@ -12,7 +12,28 @@ FIX (describe your package)
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  The classic with macro:
+
+  def_macro :with do |args,body|
+    eval args.first
+    eval body
+  end
+
+  with proc { a = 1 } do
+    puts a
+  end                         # => 1
+
+  The classic loop macro:
+
+  def_macro :loop do |args,body|
+    (eval args.first).times do
+      eval body
+    end
+  end
+
+  loop 2 do
+    puts "hi"       
+  end                        # => "hi" "hi"      
 
 == REQUIREMENTS:
 
