@@ -1,14 +1,14 @@
 = def_macro
 
-* FIX (url)
+* http://github.com/dfg59/def_macro/tree/master
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Macros for ruby
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* A few features, probably lots of problems
 
 == SYNOPSIS:
 
@@ -37,11 +37,12 @@ FIX (describe your package)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* ruby2ruby 1.1.9 or later
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install dfg59-def_macro --source=http://gems.github.com
+* won't work until I release it
 
 == LICENSE:
 
