@@ -20,7 +20,7 @@ end
 
 class Object
   def def_macro(name,&body)
-    instance_eval <<-EOS
+    class_eval <<-EOS
       def #{name}(*args,&block) 
         mac_body = DefMacro.cleanse_body(block.to_ruby)
         args.map! do |arg|
