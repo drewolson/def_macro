@@ -1,6 +1,7 @@
 History.txt
 Manifest.txt
 README.rdoc
+README.txt
 Rakefile
 lib/def_macro.rb
 test/test_def_macro.rb
