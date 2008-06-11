@@ -19,9 +19,9 @@ Macros for ruby
     eval body
   end
 
-  with proc { a = 1 } do
-    puts a
-  end                         # => 1
+  with proc { a = 1; b = 2 } do
+    puts a + b
+  end                         # => 3
 
   The classic loop macro:
 
