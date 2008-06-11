@@ -2,6 +2,5 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/def_macro
 lib/def_macro.rb
 test/test_def_macro.rb
