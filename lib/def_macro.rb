@@ -2,7 +2,7 @@ require 'rubygems'
 require 'ruby2ruby'
 
 module DefMacro
-  VERSION = "0.0.1"
+  VERSION = "0.0.2"
   
   def self.cleanse_body(body)
     body = body.split("\n")
@@ -20,7 +20,8 @@ end
 
 class Object
   def def_macro(name,&body)
-    class_eval <<-EOS
+    context = (self.kind_of?(Class) ? self : self.class)
+    context.class_eval <<-EOS
       def #{name}(*args,&block) 
         mac_body = DefMacro.cleanse_body(block.to_ruby)
         args.map! do |arg|
