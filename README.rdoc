@@ -42,6 +42,7 @@ Macros for ruby
 == INSTALL:
 
 * sudo gem install dfg59-def_macro --source=http://gems.github.com
+* sudo gem install defmacro
 
 == LICENSE:
 
