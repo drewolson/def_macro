@@ -1,6 +1,12 @@
+=== 0.0.2 / 2008-06-11
+
+* 1 minor enhancement
+
+  * macros can be defined on objects or on main
+
 === 0.0.1 / 2008-06-09
 
 * 1 major enhancement
 
-  * Birthday!
+  * macros!
 
