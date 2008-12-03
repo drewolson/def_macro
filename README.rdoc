@@ -1,6 +1,6 @@
 = def_macro
 
-* http://github.com/dfg59/def_macro/tree/master
+* http://github.com/drewolson/def_macro/tree/master
 
 == DESCRIPTION:
 
@@ -41,7 +41,7 @@ Macros for ruby
 
 == INSTALL:
 
-* sudo gem install dfg59-defmacro --source=http://gems.github.com
+* sudo gem install drewolson-defmacro --source=http://gems.github.com
 * sudo gem install defmacro
 
 == LICENSE:
